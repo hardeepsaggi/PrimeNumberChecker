@@ -16,6 +16,8 @@ A gRPC-based dotNet application for verifying prime numbers and tracking statist
 
 The Prime Number Verification application consists of a gRPC server and client that work together to verify prime numbers and track statistics. The server receives requests with a random number between 1 and 1000 from the client. It determines whether the number is prime or not and sends a response accordingly, including the Round Trip Time (RTT) for each request. The client sends a consistent rate of 10,000 requests per second and verifies that all responses are received. Any missing response triggers appropriate actions. On the server side, all requested valid prime numbers are tracked, and the top 10 highest requested/validated prime numbers are displayed every second. The server also keeps track of the total number of messages received.
 
+![Sequence Diagram](https://github.com/hsaggi/PrimeNumberChecker/assets/5955969/52a23612-56b4-4ee6-a451-5d1c578b4ae9) 
+
 ## Features
 
 - Verification of prime numbers on the server side.
