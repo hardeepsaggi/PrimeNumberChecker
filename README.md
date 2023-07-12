@@ -37,7 +37,8 @@ Instructions on how to install and set up the project.
 2. Clone the repository or download the source code.
 3. Open the project solution file (.sln) in Visual Studio.
 4. Build the solution to restore dependencies and compile the project.
-5. Set the both projects as the startup project.
+5. Set Multiple startup projects (AppClient and AppService) as the startup projects.
+![image](https://github.com/hsaggi/PrimeNumberChecker/assets/5955969/445b14d2-c546-4f4a-85a2-ffc039a08de8)
 6. Configure client App.config settings.
 7. Run the project using the debug mode or by pressing F5.
 
