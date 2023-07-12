@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option csharp_namespace = "AppService";
+
+package Calculations;
+
+// Service definition for performing calculations
+service Calculation {
+  // Check if a number is prime
+  rpc CheckNumber (PrimeNumber) returns (CalculationResponse);
+}
+
+// Request message for checking if a number is prime
+message PrimeNumber {
+  int64 id = 1;           // Unique identifier for the request
+  int64 timestamp = 2;    // Timestamp of the request
+  int64 number = 3;       // Number to be checked for primality
+}
+
+// Response message for the calculation result
+message CalculationResponse {
+  int64 id = 1;           // Identifier matching the request ID
+  int64 timestamp = 2;    // Timestamp matching the request timestamp
+  int64 number = 3;       // Number that was checked
+  bool isprime = 4;       // Flag indicating whether the number is prime or not
+}
+
+
+
