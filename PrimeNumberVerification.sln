@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppClient", "AppClient\AppC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppService", "AppService\AppService.csproj", "{15346828-7731-4B26-8250-399A2BB6911F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumberChecker.Tests", "PrimeNumberChecker.Tests\PrimeNumberChecker.Tests.csproj", "{44B0A6CB-24A5-4128-8C9C-8F2445CE60D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{15346828-7731-4B26-8250-399A2BB6911F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15346828-7731-4B26-8250-399A2BB6911F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15346828-7731-4B26-8250-399A2BB6911F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44B0A6CB-24A5-4128-8C9C-8F2445CE60D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44B0A6CB-24A5-4128-8C9C-8F2445CE60D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44B0A6CB-24A5-4128-8C9C-8F2445CE60D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44B0A6CB-24A5-4128-8C9C-8F2445CE60D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
