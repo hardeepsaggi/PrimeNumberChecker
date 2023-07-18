@@ -9,8 +9,8 @@ A gRPC-based dotNet application for verifying prime numbers and tracking statist
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+- [Build](#build)
+- [Contributing](#contributing).
 
 ## Project Description
 
@@ -78,7 +78,9 @@ The Calculation Client can be configured using the application configuration fil
 - `IsCacheEnabled`: A boolean value indicating whether caching of prime numbers is enabled. Set to `true` or `false`.
 - `RequestPerSecond`: The number of requests per second to send to the server. Adjust this value as needed.
 
-## Build and Run
+## Build
+
+Status:![Build Status](https://github.com/hsaggi/PrimeNumberChecker/actions/workflows/dotnet.yml/badge.svg)
 1. Ensure that the prerequisites are met.
 2. Open a terminal or command prompt in the project's root directory.
 3. To build the project use   `dotnet build`.
@@ -86,7 +88,7 @@ The Calculation Client can be configured using the application configuration fil
 5. The application will start, and you can access the gRPC service using the specified endpoint.
 
 Not all projects need to be built for a working binary to be produced. Only the AppClient and AppService projects are required to be built. Test projects in PrimeNumberChecker.Tests/., is optional and can be unloaded safely from the solution.
-  
+
 ## Contributing
 Contributions to the project are welcome. To contribute, please follow these steps:
 
@@ -96,7 +98,3 @@ Contributions to the project are welcome. To contribute, please follow these ste
 4. Push your branch to your forked repository.
 5. Submit a pull request to the main repository.
 6. Ensure that your code follows the coding conventions and style guidelines.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
