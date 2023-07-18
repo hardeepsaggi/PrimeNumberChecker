@@ -84,6 +84,8 @@ The Calculation Client can be configured using the application configuration fil
 3. To build the project use   `dotnet build`.
 4. Once the build is successful, run the project using  `dotnet run`.
 5. The application will start, and you can access the gRPC service using the specified endpoint.
+
+Not all projects need to be built for a working binary to be produced. Only the AppClient and AppService projects are required to be built. Test projects in PrimeNumberChecker.Tests/., is optional and can be unloaded safely from the solution.
   
 ## Contributing
 Contributions to the project are welcome. To contribute, please follow these steps:
